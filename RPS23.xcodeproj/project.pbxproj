@@ -46,8 +46,8 @@
 		EB7B7BD4298BF127002345E4 = {
 			isa = PBXGroup;
 			children = (
-				EBFC5E20299287270079969F /* rock_paper_scissors.py */,
 				EB7B7BF6298BF2DF002345E4 /* README.md */,
+				EBFC5E20299287270079969F /* rock_paper_scissors.py */,
 				EB7B7BDF298BF127002345E4 /* RPS23 */,
 				EB7B7BDE298BF127002345E4 /* Products */,
 			);
