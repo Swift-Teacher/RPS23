@@ -13,6 +13,8 @@
 		EB7B7BE8298BF127002345E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7B7BE6298BF127002345E4 /* Main.storyboard */; };
 		EB7B7BEA298BF128002345E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7B7BE9298BF128002345E4 /* Assets.xcassets */; };
 		EB7B7BED298BF128002345E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7B7BEB298BF128002345E4 /* LaunchScreen.storyboard */; };
+		EB7B7BF5298BF240002345E4 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7BF4298BF240002345E4 /* Sign.swift */; };
+		EB7B7BFA298C0688002345E4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B7BF9298C0688002345E4 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		EB7B7BE9298BF128002345E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7B7BEC298BF128002345E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7B7BEE298BF128002345E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7B7BF4298BF240002345E4 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		EB7B7BF6298BF2DF002345E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB7B7BF9298C0688002345E4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 		EB7B7BD4298BF127002345E4 = {
 			isa = PBXGroup;
 			children = (
+				EB7B7BF6298BF2DF002345E4 /* README.md */,
 				EB7B7BDF298BF127002345E4 /* RPS23 */,
 				EB7B7BDE298BF127002345E4 /* Products */,
 			);
@@ -56,8 +62,8 @@
 		EB7B7BDF298BF127002345E4 /* RPS23 */ = {
 			isa = PBXGroup;
 			children = (
-				EB7B7BE0298BF127002345E4 /* AppDelegate.swift */,
-				EB7B7BE2298BF127002345E4 /* SceneDelegate.swift */,
+				EB7B7BF7298BF405002345E4 /* Delegates */,
+				EB7B7BF8298C05B9002345E4 /* Data Models */,
 				EB7B7BE4298BF127002345E4 /* ViewController.swift */,
 				EB7B7BE6298BF127002345E4 /* Main.storyboard */,
 				EB7B7BE9298BF128002345E4 /* Assets.xcassets */,
@@ -65,6 +71,24 @@
 				EB7B7BEE298BF128002345E4 /* Info.plist */,
 			);
 			path = RPS23;
+			sourceTree = "<group>";
+		};
+		EB7B7BF7298BF405002345E4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B7BE0298BF127002345E4 /* AppDelegate.swift */,
+				EB7B7BE2298BF127002345E4 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		EB7B7BF8298C05B9002345E4 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B7BF4298BF240002345E4 /* Sign.swift */,
+				EB7B7BF9298C0688002345E4 /* GameState.swift */,
+			);
+			path = "Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +164,9 @@
 			files = (
 				EB7B7BE5298BF127002345E4 /* ViewController.swift in Sources */,
 				EB7B7BE1298BF127002345E4 /* AppDelegate.swift in Sources */,
+				EB7B7BFA298C0688002345E4 /* GameState.swift in Sources */,
 				EB7B7BE3298BF127002345E4 /* SceneDelegate.swift in Sources */,
+				EB7B7BF5298BF240002345E4 /* Sign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
