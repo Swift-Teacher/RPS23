@@ -29,6 +29,7 @@
 		EB7B7BF4298BF240002345E4 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 		EB7B7BF6298BF2DF002345E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB7B7BF9298C0688002345E4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		EBFC5E20299287270079969F /* rock_paper_scissors.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = rock_paper_scissors.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		EB7B7BD4298BF127002345E4 = {
 			isa = PBXGroup;
 			children = (
+				EBFC5E20299287270079969F /* rock_paper_scissors.py */,
 				EB7B7BF6298BF2DF002345E4 /* README.md */,
 				EB7B7BDF298BF127002345E4 /* RPS23 */,
 				EB7B7BDE298BF127002345E4 /* Products */,
