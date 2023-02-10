@@ -40,6 +40,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="👊">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="70"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="rockChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYx-We-OqV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRy-Om-V5B">
                                                 <rect key="frame" x="129" y="0.0" width="99" height="115"/>
@@ -47,6 +50,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="✋">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="70"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="paperChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fd-Cz-380"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-4y-QQA">
                                                 <rect key="frame" x="258" y="0.0" width="99" height="115"/>
@@ -54,6 +60,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="✌️">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="70"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="scissorsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TQm-a8-qK1"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -63,6 +72,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Play Again">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="playAgainTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YsY-19-TBw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -74,10 +86,18 @@
                             <constraint firstItem="WGk-jw-HDx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TWy-L5-EIx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gameStatusLabel" destination="LoM-SB-naD" id="gFI-LS-prL"/>
+                        <outlet property="oppoenentSignLabel" destination="kKP-RO-ITa" id="9FA-ye-gpy"/>
+                        <outlet property="paperButton" destination="lRy-Om-V5B" id="ByA-Xc-FUe"/>
+                        <outlet property="playAgainButton" destination="SLR-PC-lpO" id="RLf-cc-Llz"/>
+                        <outlet property="rockButton" destination="HzT-WM-5gM" id="fG3-yv-R5z"/>
+                        <outlet property="scissorsButton" destination="8nS-4y-QQA" id="VUq-Xc-xOf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="-475" y="-125"/>
         </scene>
     </scenes>
     <resources>
