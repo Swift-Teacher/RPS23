@@ -46,3 +46,5 @@ In this part of the project we build the app.
     2. Individual steps and further explanations can be found as comments in each code file in the project.
 
 
+### Extend
+If you would like to extend this project to include more game choices, you can find how to do it here: [Rock Paper Scissors Lizard Spock](https://github.com/Swift-Teacher/RPSLS).
