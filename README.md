@@ -2,7 +2,7 @@
 A single view app that will enable the user to play rock, paper, scissors against the device.
 
 ## Background 👩🏼‍🎓 🧑🏿‍🎓 👨🏽‍🎓 👩🏻‍💻 👨🏾‍💻
-This project is part of Unit 4 in Apple's **Development in Swift Exploration** ([Teacher](https://books.apple.com/us/book/develop-in-swift-explorations-teacher-guide/id1581182814) and [Student](https://books.apple.com/us/book/develop-in-swift-explorations/id1581182728)) course. This app starts on page 368 in the student book and covers the Model-View-Controller design pattern and delegation of data models to build the game logic. 
+This project is part of Unit 4 in Apple's **Develop in Swift AP CS Principles** ([Teacher](https://books.apple.com/us/book/develop-in-swift-ap-cs-principles-teacher-guide/id1581182833) and [Student](https://books.apple.com/us/book/develop-in-swift-ap-cs-principles/id1581182719)) course and **Develop in Swift Explorations** ([Teacher](https://books.apple.com/us/book/develop-in-swift-explorations-teacher-guide/id1581182814) and [Student](https://books.apple.com/us/book/develop-in-swift-explorations/id1581182728)) course. This app starts on page 368 in the student book and covers the Model-View-Controller design pattern and delegation of data models to build the game logic. 
 
 I really like this app because it forces students to think about the math behind the game in choices and outcomes.
 
