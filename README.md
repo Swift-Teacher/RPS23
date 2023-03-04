@@ -22,12 +22,12 @@ The general process and flow of this project is in the format of an Apple Teache
 ### Activate
 We want our students to activate any prior knowledge on the topic. Since our students have previously made the Rock Paper Scissors app, they will all have some prior knowledge on how the app works. However, the goal of the project is to improve the app and update a functioning app. Here is the activity I use with my students:
 
-    1. You and a partner will play at least ten rounds of Rock Paper Scissors. Have a third person record a video of it using an iPhone or iPad.
-    2. Insert video into the first Numbers or Google Sheets tab.
-    3. Record the number of wins for each player and the number of draws (ties) by putting a “1” in the correct cell.
-    4. Using the Results sheet in the next tab, determine the percentage of ties that occurred.
-    5. Discuss how can we make the game better and result in fewer draws (ties).
-    6. Have student list the outcomes (rules) of the game:
+1. You and a partner will play at least ten rounds of Rock Paper Scissors. Have a third person record a video of it using an iPhone or iPad.
+2. Insert video into the first Numbers or Google Sheets tab.
+3. Record the number of wins for each player and the number of draws (ties) by putting a “1” in the correct cell.
+4. Using the Results sheet in the next tab, determine the percentage of ties that occurred.
+5. Discuss how can we make the game better and result in fewer draws (ties).
+6. Have student list the outcomes (rules) of the game:
         a. Scissors cut paper.
         b. Rock crushes scissors.
         c. Paper covers rock.
@@ -37,15 +37,15 @@ We want our students to activate any prior knowledge on the topic. Since our stu
 ### Explore
 After we have students list the rules we are going to build a text-only version of the game in Python.
 
-    1. Have students get the rules for the game
-    2. Build Rock Paper Scissors in Python. The Python version can be found in this app's file structure. The directions and steps are within the Python file.
+1. Have students get the rules for the game
+2. Build Rock Paper Scissors in Python. The Python version can be found in this app's file structure. The directions and steps are within the Python file.
 
 
 ### Apply 
 In this part of the project we build the app.
     
-    1. The instructions and process of building the app starts on page 368 in the student book.
-    2. Individual steps and further explanations can be found as comments in each code file in the project.
+1. The instructions and process of building the app starts on page 368 in the student book.
+2. Individual steps and further explanations can be found as comments in each code file in the project.
 
 
 ### Extend
