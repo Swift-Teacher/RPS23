@@ -11,6 +11,17 @@ The general purpose of this project is to teach the Model-View-Controller design
 
 The project will also give students the opportunity to build something similar in a different programming language that is the same, but very different in application. I want to do this so that my students can see how different programming languages are used in different settings for different purposes. This project also enables me to introduce the concepts of Git version control, GitHub, versioning, and pushing, pulling, and committing to GitHub. If you are going to do this project individually or with your students, I am going to assume that you have access to Mac hardware, the Books app, Python installed on the Mac, and a Python interpreter.
 
+### Learning Goal
+Students will complete a Rock, Paper, Scissors game from scratch. Students will review a variety of concepts covered in the course and build the user interface, the model data, and the controller objects that make up the entire application.
+
+### Ohio CS Standard(s)
+1. ATP.CS.9-12.A.b - Define and implement an algorithm by decomposing problem requirements from a problem statement to solve a problem.
+2. ATP.VDR.9-12.F.a - Identify types of variables and data and utilize them to create a computer program that stores data in appropriate ways.
+3. ATP.CS.9-12.F.a - Define control structures and Boolean logic and use them to solve real-world scenarios.
+4. ATP.CS.9-12.F.c - Use data scoping to isolate data.
+5. ATP.PD.9-12.F.c - Correctly use consistent naming conventions, version control and comments to demonstrate why these are important for future use, maintenance and reuse of code.
+6. ATP.CS.9-12.A.a - Write programs that use library functions, methods and control structures to solve a problem.
+
 ## Process 👩🏾‍🏫 👨🏻‍🏫 👨🏻‍💻 👩🏽‍💻
 The general process and flow of this project is in the format of an Apple Teacher Portfolio lesson. There are three parts/phases to the lesson
     - Activate
@@ -33,7 +44,6 @@ We want our students to activate any prior knowledge on the topic. Since our stu
         c. Paper covers rock.
 
 
-
 ### Explore
 After we have students list the rules we are going to build a text-only version of the game in Python.
 
@@ -46,6 +56,9 @@ In this part of the project we build the app.
     
 1. The instructions and process of building the app starts on page 368 in the student book.
 2. Individual steps and further explanations can be found as comments in each code file in the project.
+
+### Assessment
+Students will demonstrate a fully functional app that operates as intended. The demonstration will be done in the iOS Simulator app and recorded using the built-in macOS screen recorder (shift-command-5). Students submit their screen recording and a PDF of their code.
 
 
 ### Extend
